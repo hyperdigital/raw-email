@@ -1,0 +1,16 @@
+{
+  "name": "Hyperdigital/RawEmail",
+  "description": "Raw email library",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "hyperdigital",
+      "email": "developer@hyperdigital.de"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {"Hyperdigital\\RawEmail\\": "src/"}
+  }
+}

@@ -19,7 +19,7 @@ composer require hyperdigital/raw-email
 use Hyperdigital\RawEmail\RawEmail;
 
 $html = "<h1>HTML version</h1>";
-$rawEmail = new \Hyperdigital\RawEmail\RawEmail("no-reply@hyperdigital.de", "no-reply@hyperdigital.de");
+$rawEmail = new RawEmail("no-reply@hyperdigital.de", "no-reply@hyperdigital.de");
 $rawData = $rawEmail->build(array('developer@hyperdigital.de'), 'Some subject', 'Plain text version', $html);
 
 // Send the email data
